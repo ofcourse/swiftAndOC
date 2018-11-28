@@ -16,6 +16,10 @@
     [self sayUserNameFromSwift];
 }
 
+-(void)sayHi:(NSString *)name {
+    NSLog(@"sayHI from oc name %@",name);
+}
+
 -(void)sayUserNameFromSwift {
     User *user = [[User alloc] init];
     [user sayUserName];

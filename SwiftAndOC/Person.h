@@ -13,4 +13,6 @@
 
 -(void)sayHi;
 
+-(void)sayHi:(NSString *)name;
+
 @end

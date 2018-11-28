@@ -8,13 +8,19 @@
 
 import UIKit
 
+class Customer {
+    var name : String = ""
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let c = Customer()
+        c.name = "hsg"
         let p = Person()
-        p.sayHi()
+        p.sayHi(c.name)
         //OC与Swift混编之桥接文件 https://www.jianshu.com/p/7711a1ecc89d?from=timeline&isappinstalled=0
         //OC和Swift混编开发配置  https://www.jianshu.com/p/754396e7e1bd
         //OC与swift相互调用  https://www.cnblogs.com/mazhiqiang/p/5557002.html
