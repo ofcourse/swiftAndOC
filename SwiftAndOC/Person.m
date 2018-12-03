@@ -12,7 +12,7 @@
 @implementation Person
 
 -(void)sayHi {
-    NSLog(@"sayHI from oc");
+    NSLog(@"sayHI from oc %@",self.name);
     [self sayUserNameFromSwift];
 }
 
